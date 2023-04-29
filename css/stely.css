@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    font-size: 4rem;
+}
+
+.titulo{
+    font-size: 4.8rem;
+    font-family: 'UnifrakturCook', cursive;
+}
+
+.menu{
+    font-family: 'Instrument Serif', serif;
+    font-size: 1.5rem;
+}
+
+.card{
+    font-family: 'Instrument Serif', serif;
+
+}
+
+.rodape{
+    background-color: rgb(228, 226, 224);
+    text-align: center;
+    padding: 2rem;
+    margin: 1rem;
+}
+
+@media (max-width:800px ) {
+
+    .titulo{
+        font-size: 480%;
+    }
+
+    .cartas{
+        padding: 20%;
+        gap: 5rem;
+    }
+
+}
